@@ -80,12 +80,16 @@ hr {
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
-#menu a.navbar-brand {
-  font-family: "Raleway", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
+.serass-logo-pos {
+  margin: 0px !important;
+}
+#menu img.navbar-brand {
   color: #333;
-  text-transform: uppercase;
+  text-transform: capitalize;
+  width: 200px;
+  height: 50px !important;
+  padding: 0px !important;
+  background: url(../img/logo.png) center center no-repeat;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
@@ -207,6 +211,7 @@ a:focus,
 .intro {
   display: table;
   width: 100%;
+  height: 100vh;
   padding: 0;
   background: url(../img/intro-bg.jpg) center center no-repeat;
   background-color: #e5e5e5;
@@ -219,13 +224,14 @@ a:focus,
   background: rgba(0, 0, 0, 0.2);
 }
 .intro h1 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #fff;
   font-size: 82px;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin-top: 0;
   margin-bottom: 10px;
+  text-shadow: 2px 7px 25px rgba(0, 0, 0, 0.8);
 }
 .intro h1 span {
   font-weight: 800;
@@ -238,9 +244,10 @@ a:focus,
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
+  text-shadow: 2px 7px 25px rgba(0, 0, 0, 0.8);
 }
 header .intro-text {
-  padding-top: 350px;
+  padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
 }
